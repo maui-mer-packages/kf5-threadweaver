@@ -1,5 +1,5 @@
-Name         : kf5-threadweaver
-Version      : 5.0.0
+Name         : threadweaver
+Version      : 5.1.0
 Release      : 1
 Group        : System/Base
 License      : GPLv2+
@@ -56,5 +56,5 @@ SubPackages:
           - "%{_kf5_includedir}/ThreadWeaver/"
           - "%{_kf5_includedir}/threadweaver_version.h"
           - "%{_kf5_libdir}/libKF5ThreadWeaver.so"
-          - "%{_kf5_libdir}/cmake/KF5ThreadWeaver"
-          - "%{_datadir}/qt5/mkspecs/modules/qt_ThreadWeaver.pri"
+          - "%{_kf5_cmakedir}/KF5ThreadWeaver"
+          - "%{_kf5_mkspecsdir}/qt_ThreadWeaver.pri"
